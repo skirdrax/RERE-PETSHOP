@@ -72,7 +72,7 @@ export default function AuthPage() {
             {isRegister && (
               <input
                 type="text"
-                placeholder="Nomor Handphone"
+                placeholder="08xx-xxxx-xxxx"
                 value={form.noHp}
                 onChange={(e) => handleChange("noHp", e.target.value.replace(/[^0-9]/g, ""))}
                 className="w-full border-b border-gray-400 bg-transparent py-2 focus:outline-none focus:border-black"
@@ -90,7 +90,7 @@ export default function AuthPage() {
 
             <input
               type="email"
-              placeholder="Email"
+              placeholder="Example@gmail.com"
               value={form.email}
               onChange={(e) => handleChange("email", e.target.value)}
               className="w-full border-b border-gray-400 bg-transparent py-2 focus:outline-none focus:border-black"
@@ -140,7 +140,7 @@ export default function AuthPage() {
                 {form.confirmPassword && (
                   <p
                     className={`text-md mt-1 ${
-                      form.password === form.confirmPassword ? "text-green-600" : "text-red-600"
+                      form.password === form.confirmPassword ? "text-green-600" : "text-primary-600"
                     }`}
                   >
                     {form.password === form.confirmPassword ? "Kata sandi cocok" : "Kata sandi tidak sama"}

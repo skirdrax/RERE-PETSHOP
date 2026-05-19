@@ -1,7 +1,7 @@
 const trimTrailingSlash = (value = "") => value.replace(/\/+$/, "");
 
 const apiOrigin = trimTrailingSlash(
-  import.meta.env.VITE_API_URL || "http://127.0.0.1:8000"
+  import.meta.env.VITE_API_URL || "https://api.rerepetshop.biz.id/"
 );
 
 export const API_BASE_URL = `${apiOrigin}/api`;

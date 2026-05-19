@@ -118,26 +118,26 @@ export default function ContactPage() {
                   <input
                     type="text"
                     placeholder="Masukkan Nama"
-                    className="rounded-2xl bg-gray-100 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
+                    className="rounded-2xl bg-gray-200 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
                   />
 
                   <input
                     type="email"
                     placeholder="Masukkan Email"
-                    className="rounded-2xl bg-gray-100 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
+                    className="rounded-2xl bg-gray-200 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
                   />
 
                   <input
                     type="number"
                     placeholder="Masukkan Nomor Telepon"
-                    className="rounded-2xl bg-gray-100 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
+                    className="rounded-2xl bg-gray-200 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
                   />
                 </div>
 
                 <textarea
                   rows="6"
                   placeholder="Masukkan Pesan"
-                  className="w-full resize-none rounded-2xl bg-gray-100 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full resize-none rounded-2xl bg-gray-200 px-4 py-3 outline-none focus:ring-2 focus:ring-primary"
                 ></textarea>
 
                 <div className="flex justify-end">
